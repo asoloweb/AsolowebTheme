@@ -1,0 +1,320 @@
+/* Mobile CSS ASW_ */
+
+@media screen and (max-width: 350px) {
+	html body .TopContainer {
+		ALIGN-ITEMS: end !important;
+	}		
+}
+
+@media screen and (max-width: 960px) {
+	
+	.SiteWidth, .HalfWidth {
+		width:90% !important;
+	}
+	
+	.LangTab {
+		display: none !important;
+	}
+
+	.HelpMenuContainer .menu-item {
+		font-size:12px !important;
+	}
+	
+	#ubermenu-nav-main-637-menu-mobile {
+		display: flex;
+		flex-direction: column !important;	
+	}
+	
+	.SliderContainer {
+		width:100% !important;
+	}
+
+	.HelpMenuContainer {
+		right: 0 !important;
+		width: 100%;
+		left: 0 !important;
+		margin-left: 0;
+		top: 118px !important;
+		border-radius: 0;
+	}
+	
+	.ArchiveGridFlex {
+		width:90% !important;
+		margin: auto;
+	}
+	
+	.term-description {
+		width:90%;
+		margin: auto;
+	}
+	
+	.SecondImage {
+		display:none !important;
+	}
+	
+	.ProductBoxTitle {
+		line-height:30px;
+	}
+	
+	.RegistrationContainer {
+		flex-direction: column !important;
+	}
+	
+	#RegistrationBox, #LoginBox {
+		width: 100% !important;
+	}
+
+	
+	.TopContainer {
+		flex-direction: column-reverse;
+		padding: 0;
+	}
+	
+	.SearchTab {
+		display: none;
+	}
+	
+	.UtilityTab {
+		width:100%;
+		padding-top:5px;
+		padding-bottom:5px;
+		border-bottom:2px solid #f2f2f2;
+		justify-content: space-evenly;
+	}
+	
+	.woocommerce-info {
+		display: none !important;
+	}
+	
+	body .wc-proceed-to-checkout {
+		position: fixed !important;
+		bottom: 0 !important;
+		width: 100% !important;
+		left: 0 !important;
+		bottom: 0 !important;
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	
+	.WooCommerceCustomGrid .product {
+		width:100% !important;
+	}
+	
+
+	
+	.checkout-button {
+		margin:0 !important;
+		border-radius: 0 !important;
+	}
+	
+	#coupon_code {
+		margin-bottom:15px;
+	}
+	
+.woocommerce div.product .product_title {
+	display: none !important;
+}
+	
+	.woocommerce-loop-category__title, .woocommerce-loop-product__title {
+		font-size:16px !important;
+	}
+	
+	.related .WooCommerceCustomGrid .product {
+		width:25% !important;
+	}
+	
+	.product_title {
+		font-size: 30px !important;
+	}
+	
+	
+	.UnderDescription li {
+		
+	}
+	
+	.UnderDescription  {
+		flex-direction: column !important;
+	}
+	
+	.UnderDescription div {
+		width:80% !important;
+		text-align:center !important;
+	}
+	
+	.product_meta {
+		font-size: 10px !important;
+		line-height: 13px;
+	}
+	
+	.SingleVariation {
+		width: 100% !important;
+	}
+	
+	.ThumbContainer {
+		height:200px;
+	}
+	
+	
+.woocommerce div.product form.cart .button {
+    vertical-align: middle;
+    float: left;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    z-index: 99999;
+    border-radius: 0;
+    height: 55px;
+}
+
+#add_payment_method table.cart td.actions .coupon .input-text, .woocommerce-cart table.cart td.actions .coupon .input-text, .woocommerce-checkout table.cart td.actions .coupon .input-text
+{
+	width:100% !important;
+	margin-bottom:20px;
+}
+
+.woocommerce #content table.cart td.actions .coupon .button.alt, .woocommerce #content table.cart td.actions .coupon .input-text+.button, .woocommerce table.cart td.actions .coupon .button.alt, .woocommerce table.cart td.actions .coupon .input-text+.button, .woocommerce-page #content table.cart td.actions .coupon .button.alt, .woocommerce-page #content table.cart td.actions .coupon .input-text+.button, .woocommerce-page table.cart td.actions .coupon .button.alt, .woocommerce-page table.cart td.actions .coupon .input-text+.button
+{
+	width: 100% !important;
+}
+
+	
+.woocommerce #content div.product div.images, .woocommerce #content div.product div.summary, .woocommerce div.product div.images, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.images, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.images, .woocommerce-page div.product div.summary {
+	width:85% !important;
+}
+	
+	.SingleProductPageContainer {
+		width:100% !important;
+	}
+	
+	.MobileTitle {
+		display: block !important;
+		text-align: center !important;
+	}
+	
+	body .rtwpvg-images {
+		width: 100% !important
+	}
+	
+	.rtwpvg-wrapper .rtwpvg-slider-wrapper .rtwpvg-trigger-position-top-right {
+		display: none !important;
+	}
+	
+	.SiteWidth .product {
+		flex-direction: column;
+	}
+	
+	.SidebarContainer {
+		display: none;
+	}
+	
+	.WooCommerceCustomGrid {
+		justify-content: space-around !important;
+	}
+	
+	h1 {
+		font-family: 'MontserratBold';
+	    font-size: 30px;
+	    line-height: 30px;
+	}
+	
+	
+	
+	.MainFooter {
+		text-align: center;
+	}
+	
+	.FooterTitle {
+		margin-top:25px;
+		margin-bottom:0 !important;
+	}
+
+	.woocommerce-cart .FullWidth, .woocommerce-checkout .FullWidth {
+		width:100% !important;
+	}
+	
+	.SocialBadge {
+		width:50% !important;
+	    margin: auto;
+	    margin-top: 25px;		
+	}
+	
+	.MetodiPagamentoBox {
+		margin-top:25px;
+	}
+	
+	.InternalHeader h1 {
+		font-size: 50px;
+		line-height: 44px;
+	}
+
+	.wp-block-columns p, .wp-block-columns h1, .wp-block-columns h6 {
+		text-align: center !important;	
+	}
+	
+	.wp-block-cover__inner-container h1 {
+		font-size: 22px !important;
+		text-align: center !important;
+	}
+	
+	
+	
+	.LogoContainer img {
+		height:65px !important;
+		margin-top: 10px;
+	}
+	
+	
+	.SingleSlideTitle {
+		width:100% !important;
+	}
+	
+	.MenuContainer {
+		padding-top:25px;
+	    display: none;
+	    position: fixed;
+	    width: 100%;
+	    position: fixed;
+	    top: 116px;
+	    z-index: 9999999;
+	    background: #fff;
+	    text-align: right;
+	}
+	
+	.MenuContainer ul {
+		flex-direction: column;
+	}
+	
+	.Header {
+		-webkit-box-shadow: 10px 31px 54px -21px rgba(0,0,0,0.75);
+		-moz-box-shadow: 10px 31px 54px -21px rgba(0,0,0,0.75);
+		box-shadow: 10px 31px 54px -21px rgba(0,0,0,0.75);
+	}
+	
+	.menu-item {
+		font-size: 20px !important;
+	}
+	
+	.HalfSiteWidth {
+		width:100%;
+	}
+	
+	.FooterBadgeBar {
+		flex-direction: column;
+	}
+	
+	.FooterMenuBar {
+		flex-direction: column;
+	}
+	
+	.MobileMenuButton {
+		display: block;
+		position: fixed;
+		z-index: 999;
+		background: #fff;
+		border-radius: 20px;
+		top: 50px;
+		right: 10px;
+	}
+  
+}

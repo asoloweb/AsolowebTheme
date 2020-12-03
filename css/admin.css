@@ -1,0 +1,119 @@
+
+/* FIX BACKEND WORDPRESS */
+
+
+
+/* BLOCK CSS */
+
+.BlockMix {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.BlockMixAligndestra {
+	flex-direction: row-reverse;
+}
+
+.BlockMixAnimation {
+    height: 800px;
+    width: 700px;
+    background-size: contain;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.BlockAnimationImage {
+	height: 450px;
+	border-radius: 20px;
+	box-shadow: 7px 6px 24px #333;
+}
+
+.BlockAnimationLabelThumb img {
+	height:100px;
+}
+
+.BlockAnimationLabelInner {
+	display: flex;
+	flex-direction: column;
+	margin-right: 45px;
+}
+
+.BlockAnimationLabel {
+	background: #fff;
+	position: absolute;
+	margin-left: 20%;
+	display: flex;
+	align-items: center;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px #333;
+	margin-top: 15%;
+	cursor: pointer;
+	padding:3px;
+}
+
+.BlockAnimationLabelArrow i {
+	color: #fff;
+	font-size: 22px;
+}
+
+
+.BlockAnimationLabelArrow {
+    background-color: var(--green);
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 18px;
+    position: absolute;
+    right: -40px;
+}
+
+.BlockMixTextContainer {
+	width:450px;
+}
+
+.BlockMixButtonContainer {
+	margin-top:30px;
+}
+
+/* BLOCK CATEGORIE SLIDER */
+
+.Block_cat_container {
+	background-color: #f2f2f2;
+	display: flex;
+	padding:30px;
+}
+
+.Block_cat_single_cat {
+	width: 200px;
+}
+
+.Block_single_cat_img_container {
+	height:200px;
+	width:200px;
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+
+/* BACKEND WORDPRESS */ 
+
+.wp-block {
+    max-width: 100% !important;
+}
+
+.status-awaiting-shipment  {
+	background: cornflowerblue !important;
+	color: #fff !important;
+}
+
+.status-cancelled {
+	background: brown !important;
+	color: #fff !important;
+}
