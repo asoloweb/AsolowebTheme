@@ -72,7 +72,6 @@
       while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
       <div class="SingleConn">
-        <?php echo $MostraDettagliAzienda;?>
         <?php
           $Thumb = get_field('immagine_connessione',get_the_ID());
         ?>
@@ -80,7 +79,6 @@
         </div>
         <div class="SingleConnInnerContainer">
           <div class="SingleConnTitle"><?php the_title(); ?></div>
-          <div><?php the_field('tipo_fibra', get_the_ID()); ?></div>
           <div class="SingleNewsDesc"><?php the_field('descrizione_breve',get_the_ID()); ?></div>
           <?php
             $OriginalPermalink = get_the_permalink();

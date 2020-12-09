@@ -1,0 +1,364 @@
+/* TYPO */
+
+.BlockTitolo {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.BlockTestoImmagine .BlockMixTextContainer {
+  margin-left: 100px;
+}
+
+/* BLOCK BANNER  */
+
+.BlockBanner {
+  display: flex;
+  min-height: 600px;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+  border-radius: 10px;
+  box-shadow: 10px 6px 34px #222;
+  overflow: hidden;
+}
+
+#codice_fiscale_field,
+#partita_iva_field {
+  display: none;
+}
+
+.payment_method_cheque {
+  display: none !important;
+}
+
+.CartBadgeContainer {
+  display: flex;
+}
+
+.BlockBannerImage,
+.BlockBannerContainer {
+  width: 50%;
+  height: 600px;
+  background-size: cover;
+  background-position: center center;
+  align-items: baseline;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  color: #fff;
+}
+
+.BlockBannerContainer h2 {
+  color: #fff !important;
+}
+
+/* CONTAINER BLOCK */
+
+.ContainerBlock {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ContainerInnerBlock {
+  color: white;
+  padding: 20px;
+  width: 50%;
+  text-align: center;
+}
+
+.ShareContainer {
+  margin-top: 30px;
+}
+
+.BlockProductEvidenza {
+  height: 800px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-bottom: 150px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.Block_single_cat_button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* HERO BLOCK */
+.HeroBlock {
+  height: 450px;
+  display: flex;
+  align-items: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.HeroBlockRight {
+  justify-content: flex-end;
+  background-position: left;
+}
+
+.HeroBlockLeft {
+  justify-content: flex-start;
+  background-position: right;
+}
+
+.HeroInnerBlock {
+  background-color: white;
+  padding: 20px;
+  width: 50%;
+}
+
+/* BLOCK CSS */
+
+.BlockMix {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BlockMixAligndestra {
+  flex-direction: row-reverse;
+}
+
+.BlockMixAnimation {
+  height: 650px;
+  width: 700px;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+}
+
+.BlockVerticale .BlockMixAnimation {
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+}
+
+.BlockVerticale .BlockMixTextContainer {
+  text-align: center;
+  width: 50%;
+  margin-top: 40px;
+}
+
+.BlockVerticale .BlockAnimationImage {
+  width: 350px;
+  height: 350px;
+}
+
+.BlockVerticale .BlockMixTextContainer p {
+  min-height: 120px;
+}
+
+.BlockAnimationImage {
+  height: 450px;
+  width: 450px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 20px;
+  box-shadow: 7px 6px 24px #333;
+}
+
+.BlockSingleBlocchettoDesc {
+  text-align: center;
+}
+
+.BlockSingleBlocchettoTitle {
+  font-weight: bold;
+  color: #222;
+  padding: 5px;
+  font-size: 22px;
+}
+
+.BlockSingleBlocchetto {
+  width: 280px;
+  height: auto;
+  box-shadow: 1px 7px 9px #999;
+  border-radius: 20px;
+  display: flex;
+  padding: 20px;
+  margin: 15px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.blocksingleblocchetto: hover {
+  box-shadow: 10px 10px 10px #444;
+}
+
+.CustomHomeBlocchetto {
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 30px #888;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.CustomHomeBlocchetto .BlockSingleBlocchetto {
+  margin-left: 15px;
+  margin-right: 15px;
+  box-shadow: none;
+}
+
+#BlocchettoList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.BlockAnimationImageTitoloImmagine {
+  height: 290px;
+  width: 440px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 30px;
+  box-shadow: 10px 9px 15px #00000054;
+}
+
+.BlockAnimationLabelThumb img {
+  height: 100px;
+}
+
+.Block_prod_container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.BlockAnimationLabelInner {
+  display: flex;
+  flex-direction: column;
+  margin-right: 45px;
+}
+
+.BlockAnimationLabel {
+  background: #fff;
+  position: absolute;
+  margin-left: 15%;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #333;
+  margin-top: 15%;
+  cursor: pointer;
+  padding: 3px;
+}
+
+.BlockAnimationLabelArrow i {
+  color: #fff;
+  font-size: 22px;
+}
+
+.BlockAnimationLabelArrow {
+  background-color: var(--green);
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 18px;
+  position: absolute;
+  right: -40px;
+}
+
+.BlockMixTextContainer {
+  width: 450px;
+}
+
+.BlockMixButtonContainer {
+  margin-top: 30px;
+}
+
+.BlockMixTextContainer h2 {
+  font-size: 46px;
+  margin: 0;
+  margin-bottom: 15px;
+  line-height: 43px;
+  color: #333;
+}
+
+/* BLOCCO CATEGORIA SLIDER */
+
+.Block_cat_single_cat {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 10px 10px 15px #222;
+  margin: 30px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.Block_single_cat_img_container {
+  height: 200px;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.Block_cat_InnerContainer {
+  position: absolute;
+  background: var(--green);
+  width: 100%;
+  height: 150px;
+}
+
+/* BLOCK PRODOTTO */
+
+.Block_product_single_product {
+  background: #fff;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.Block_single_prod_desc {
+  font-size: 14px;
+}
+
+.Block_single_prod_price {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: right;
+  font-size: 14px;
+}
+
+.Block_single_prod_price_digit {
+  font-weight: bold;
+  font-size: 22px;
+  color: #222;
+}
+
+.Block_single_prod_name,
+.Block_single_cat_name {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: #333;
+  font-weight: bold;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Block_single_prod_img_container {
+  border-radius: 20px;
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

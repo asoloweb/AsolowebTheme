@@ -21,14 +21,11 @@ get_header(); ?>
 			<div class="SlideLink">
 				<div class="SingleSlide" style="background-image:url('<?php the_sub_field('immagine'); ?>');">
 					<div class="SiteWidth BadgeContainer BadgeContainer<?php the_sub_field('align');?>">
-						<h1 class="SingleSlideTitle" style="color:<?php the_sub_field('colore_testo'); ?>">
+						<h1 class="SingleSlideTitle" style="color:<?php the_sub_field('colore_testo'); ?>!important;">
 							<?php the_sub_field('titolo'); ?>
 						</h1>
 						<div class="SingleSlideSubTitle" style="color:<?php the_sub_field('colore_testo'); ?>">
 							<?php the_sub_field('sottotitolo'); ?>
-						</div>
-						<div>
-							<a href="<?php the_sub_field('link'); ?>" class="BadgeButton"><?php the_sub_field('titolo_pulsante'); ?></a>
 						</div>
 					</div>
 				</div>

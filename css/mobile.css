@@ -1,11 +1,5 @@
 /* Mobile CSS ASW_ */
 
-@media screen and (max-width: 350px) {
-	html body .TopContainer {
-		ALIGN-ITEMS: end !important;
-	}		
-}
-
 @media screen and (max-width: 960px) {
 	
 	.SiteWidth, .HalfWidth {
@@ -300,10 +294,6 @@
 	}
 	
 	.FooterBadgeBar {
-		flex-direction: column;
-	}
-	
-	.FooterMenuBar {
 		flex-direction: column;
 	}
 	
